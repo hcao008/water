@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   #Add About page routes
 get 'about', to: 'home#about'
 
-  root 'home#index'
+root 'home#index'
 get 'home/index'
 
   resources :charges
